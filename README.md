@@ -1,9 +1,11 @@
 # PDF QA Assistant
 
 ## Overview
+
 This project is a Streamlit-based PDF QA Assistant that allows users to upload a PDF document, extract questions from the text, and receive AI-generated answers. The application utilizes Langchain, Google Gemini AI, FAISS for vector storage, and LangGraph to manage workflows.
 
 ## Features
+
 - Upload a PDF file
 - Automatically extract questions from the document
 - Retrieve relevant context using FAISS
@@ -12,7 +14,12 @@ This project is a Streamlit-based PDF QA Assistant that allows users to upload a
 - Allow users to manually ask additional questions
 - Reset and process new PDFs
 
+## Working Video
+
+![Watch the demo](https://drive.google.com/file/d/1gJE4ExpTYQX8Yj2ZNWeJGHEfsFLnfxB6/view?usp=sharing)
+
 ## Tech Stack
+
 - **Frontend:** Streamlit
 - **AI Models:** Google Gemini (Generative AI)
 - **Text Processing:** Langchain, PyPDFLoader
@@ -21,10 +28,13 @@ This project is a Streamlit-based PDF QA Assistant that allows users to upload a
 - **Environment Management:** dotenv
 
 ## Installation
+
 ### Prerequisites
+
 Ensure you have Python 3.8+ installed.
 
 ### Steps
+
 1. Clone the repository:
    ```sh
    git clone <repository-url>
@@ -46,6 +56,7 @@ Ensure you have Python 3.8+ installed.
    ```
 
 ## Usage
+
 1. Upload a PDF file.
 2. The app will extract questions automatically.
 3. Review the extracted questions and their AI-generated answers.
@@ -53,6 +64,7 @@ Ensure you have Python 3.8+ installed.
 5. Reset and upload a new PDF if needed.
 
 ## Directory Structure
+
 ```
 📂 project-directory
 ├── app.py               # Main application script
@@ -62,6 +74,7 @@ Ensure you have Python 3.8+ installed.
 ```
 
 ## Dependencies
+
 - `streamlit`
 - `langchain`
 - `langgraph`
@@ -70,8 +83,10 @@ Ensure you have Python 3.8+ installed.
 - `PyPDFLoader`
 
 ## License
+
 This project is licensed under the MIT License.
 
 ## Author
+
 Gagan N
 
