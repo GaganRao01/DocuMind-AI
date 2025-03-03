@@ -16,7 +16,11 @@ This project is a Streamlit-based PDF QA Assistant that allows users to upload a
 
 ## Working Video
 
-![Watch the demo](https://drive.google.com/file/d/1gJE4ExpTYQX8Yj2ZNWeJGHEfsFLnfxB6/view?usp=sharing)
+
+https://github.com/user-attachments/assets/3797e8e6-b7fd-4685-b7be-5af1fd1d67b8
+
+
+
 
 ## Tech Stack
 
