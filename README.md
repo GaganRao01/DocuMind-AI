@@ -1,11 +1,9 @@
-# PDF QA Assistant
+DocuMind AI
 
 ## Overview
-
-This project is a Streamlit-based PDF QA Assistant that allows users to upload a PDF document, extract questions from the text, and receive AI-generated answers. The application utilizes Langchain, Google Gemini AI, FAISS for vector storage, and LangGraph to manage workflows.
+DocuMind AI is a Streamlit-based intelligent document processing and question-answering system that allows users to upload a PDF document, extract questions from the text, and receive AI-generated answers based on the document's context. The application utilizes Langchain, Google Gemini AI, FAISS for vector storage, and LangGraph to manage workflows.
 
 ## Features
-
 - Upload a PDF file
 - Automatically extract questions from the document
 - Retrieve relevant context using FAISS
@@ -14,38 +12,34 @@ This project is a Streamlit-based PDF QA Assistant that allows users to upload a
 - Allow users to manually ask additional questions
 - Reset and process new PDFs
 
+
+https://github.com/user-attachments/assets/0272a0cb-364b-458f-8109-4d352fbde87e
+
+
 ## Working Video
 
 
-https://github.com/user-attachments/assets/3797e8e6-b7fd-4685-b7be-5af1fd1d67b8
-
-
-
-
 ## Tech Stack
-
-- **Frontend:** Streamlit
-- **AI Models:** Google Gemini (Generative AI)
-- **Text Processing:** Langchain, PyPDFLoader
-- **Vector Storage:** FAISS
-- **Workflow Management:** LangGraph
-- **Environment Management:** dotenv
+- **Frontend:** Streamlit  
+- **AI Models:** Google Gemini (Generative AI)  
+- **Text Processing:** Langchain, PyPDFLoader  
+- **Vector Storage:** FAISS  
+- **Workflow Management:** LangGraph  
+- **Environment Management:** dotenv  
 
 ## Installation
 
 ### Prerequisites
-
 Ensure you have Python 3.8+ installed.
 
 ### Steps
-
 1. Clone the repository:
-   ```sh
+   ```bash
    git clone <repository-url>
    cd <project-directory>
    ```
 2. Install dependencies:
-   ```sh
+   ```bash
    pip install -r requirements.txt
    ```
 3. Set up environment variables:
@@ -55,12 +49,11 @@ Ensure you have Python 3.8+ installed.
      GOOGLE_API_KEY=<your-google-api-key>
      ```
 4. Run the Streamlit app:
-   ```sh
+   ```bash
    streamlit run app.py
    ```
 
 ## Usage
-
 1. Upload a PDF file.
 2. The app will extract questions automatically.
 3. Review the extracted questions and their AI-generated answers.
@@ -68,7 +61,6 @@ Ensure you have Python 3.8+ installed.
 5. Reset and upload a new PDF if needed.
 
 ## Directory Structure
-
 ```
 📂 project-directory
 ├── app.py               # Main application script
@@ -78,19 +70,16 @@ Ensure you have Python 3.8+ installed.
 ```
 
 ## Dependencies
-
-- `streamlit`
-- `langchain`
-- `langgraph`
-- `faiss-cpu`
-- `python-dotenv`
-- `PyPDFLoader`
+- streamlit
+- langchain
+- langgraph
+- faiss-cpu
+- python-dotenv
+- PyPDFLoader
 
 ## License
-
 This project is licensed under the MIT License.
 
 ## Author
-
 Gagan N
 
